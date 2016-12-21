@@ -1,0 +1,51 @@
+#refresh {
+    background-color: #ddd;
+    width: 250px;
+    height: 40px;
+    display:none;
+
+}
+
+#stocklist {
+    list-style: none;
+    height: 40px;
+}
+
+#stocklist li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #FFD;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 4px;
+}
+
+.deleteStock {
+    display: inline-block;
+    float: right;
+    margin-top: 2px;
+}
+
+.deleteStock:hover {
+    color: red;
+}
+
+#stock_input {
+    margin-left: 20px
+}
+
+
+path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}

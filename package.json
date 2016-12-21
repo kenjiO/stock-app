@@ -1,0 +1,17 @@
+{
+  "name": "Stock-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": "",
+  "author": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "^0.2.10",
+    "express": "~3.2.4",
+    "socket.io": "^1.7.1",
+    "yahoo-finance": "^0.2.15"
+  }
+}
